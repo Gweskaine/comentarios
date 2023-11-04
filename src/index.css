@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainContainer {  
+  display: flex;
+  border: 1px solid ;
+  margin: 0.5em;
+  padding: 1rem;
+  border-radius: 15px;
+}
+.title {
+  max-width: 100px;
+  display: flex;
+  flex-direction: column;  
+  text-align: center;
+}
+.content {
+  margin: 0.5em;  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  width: 100px;
+}
+.dark {
+  background-color:black;
+  color: aliceblue;
+}
